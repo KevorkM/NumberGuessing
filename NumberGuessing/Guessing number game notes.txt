@@ -1,0 +1,97 @@
+Create a program called number guesser.
+There will be a secret number that is set at the start of the program without any user input.
+The secret number should be picked from a certain range.
+The range of the number should be output to the player.
+The player should be prompted to enter his guess.
+The prompt should show how many guesses the player has left.
+The player will then enter his guess.
+If the guess is too high then the game will output that the guess was too high.
+If the guess was too low then the game will output that it was too low.
+The player only has a certain number of guesses.
+The number of guesses should be based on the range of the secret number.
+Any wrong guess will decrement the number of guesses left.
+The game ends by saying what the secret number was regardless of if the player guessed the right number.
+When the game is over, the player should be prompted if he would like to play again.
+If yes then the secret number should change.
+Any input errors by the player should have proper handling.
+
+
+Gameplay:
+
+we need a variable that stores the secret number
+
+	We need a to set a range: 0 to 100
+
+	We need to set a variable stating how many guesses the player has left
+
+	we need to set a variable that will store the players guess
+
+	number of guesses will be the log base 2 of the upper range
+
+	how do we change the secret number?
+
+	
+	do{
+		Play the game
+	
+	}while(Want to play again)
+
+
+	Play the game:
+
+		1. set the secret number - a known value
+		2. set the number of guesses - > log2(100)
+
+	do{
+	
+		3. Prompt the user to make a guess(out put the number of guesses left)
+		4. get the guesses from the player
+		5. check to see if the guess is equal to the secret number
+		i. if the guess is incorrect
+		a) decrement the number of guesses left
+		b) check to see if if the guess was higher or lower than the secret number
+			- if higher, then print that the guess was to high
+			-if lower, print that the guess was low
+	}
+	while(the game is not over)
+	
+	Display the result - tell the player if he go it or not.
+	
+	Functions:
+
+
+	Play the game -> PlayGame();
+
+	RestartGame->WantToPlayAgain();
+
+	Get the guesses from the player ->GetGuess();
+
+	this is not over -> IsGameOver();
+	- When the number of tries reachs 0	
+
+	Display results-> DisplayResults();
+	
+	if (the player got it)	{
+	
+	print that they got the number
+
+}	
+else {
+
+	print that they did not get it and display the secret number
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

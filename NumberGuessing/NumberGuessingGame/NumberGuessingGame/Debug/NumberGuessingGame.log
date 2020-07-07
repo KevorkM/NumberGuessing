@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\Repository\C++ Projects\NumberGuessing\NumberGuessingGame\NumberGuessingGame\Source.cpp(38,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  NumberGuessingGame.vcxproj -> D:\Repository\C++ Projects\NumberGuessing\NumberGuessingGame\Debug\NumberGuessingGame.exe
